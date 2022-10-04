@@ -1,0 +1,76 @@
+.inputClass {
+    width: 2.8rem;
+    height: 2.8rem;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #00203FFF;
+}
+
+tr:nth-child(3n+0) {
+    border-bottom: 3px solid black;
+}
+
+td:nth-child(3n+0) {
+    border-right: 3px solid black;
+}
+
+div {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    /* padding: 10px; */
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    border: 5px solid black;
+    background-color: #ADEFD1FF !important;
+}
+
+tr {
+    margin: 0;
+    padding: 0;
+}
+
+td {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    color: #ADEFD1FF;
+    width: 100%;
+    /* height: 5rem; */
+    height: 100%;
+    /* display: flex; */
+    align-items: center;
+    /* justify-content: space-between; */
+    background-color: #00203FFF;
+    /* height: 100%; */
+    /* padding: 0 10%; */
+    /* margin-left: 10%; */
+}
+
+.btn {
+    margin: 20px 5px;
+    cursor: pointer;
+    background-color: #ADEFD1FF;
+    /* Green */
+    border: 3px solid #00203FFF;
+    /* border-radius: 45%; */
+    color: #00203FFF;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
